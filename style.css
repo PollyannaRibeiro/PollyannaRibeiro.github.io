@@ -1,0 +1,489 @@
+/* CSS Document */
+
+body{
+	width: 100%;
+	background-color: #ECECEC;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+
+}
+
+a {
+	text-decoration: none;
+	color: #1F1F1F;
+}
+
+
+a:hover{
+	color: #4681A5;
+	transition: 0.2s;
+	text-decoration: underline;
+}
+
+#line{
+	background-color: #2F2F2F;
+	margin-top: -0.9em;
+	padding-bottom: 1em;
+	
+
+}
+header{
+	width: auto;
+	background-color: #FFFFFF;
+	padding: 1em 2em 5em 2em;
+	margin-top: -0.5em;
+}
+
+header ul {
+	width: 50%;
+	margin-left: 45%;
+	margin-top: -4.5em;
+	text-decoration: none;
+	padding: 0 0.5em;
+	margin-right: 0.5em;	
+	font-size: 1.2em;
+	font-weight: 300;
+
+}
+
+header ul li{
+	
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	float: right;
+	padding-left: 1em;
+	padding-right: 1em;
+	
+	
+}
+
+header ul li a{
+	text-decoration: none!important;
+	font-size: 1.3em;
+
+}
+
+#menu-mobile{
+	display: none;
+}
+
+#logo{
+	width: 20%;
+	float: left;
+	margin-top: 0.6em;
+	margin-left: 10%;
+	box-shadow: none;
+}
+
+#parallax-intro{
+	width: 102%;
+	margin-left: -2%;
+	overflow: hidden;
+	background-image: url(img/intro-photoR.jpg); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+	
+
+}
+
+#parallax-intro img{
+	opacity: 0;
+	width: 100%;
+	height: 15em;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+h3{
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 300;
+	color: #303030;
+	margin-left: 7em;
+	margin-bottom: -1em;
+}
+
+p{
+	font-size: 1.3em;
+	padding: 2em;
+	margin: 0.5em 4em 0.5em 4em;
+	text-align: justify;
+
+}
+
+p a{
+
+}
+
+#about{
+	padding-top: 20%;
+	
+}
+
+.projects-part{
+	padding-bottom: 2em;
+}
+
+#projects-p p{
+	margin-right: 55%;
+}
+
+a img{
+	opacity: 1;
+	width: 45%;;
+	height: auto;
+	float: right;
+	margin-right: 6em;
+	box-shadow: 4px 4px 2px -2px gray;
+	
+}
+
+img:hover{
+	box-shadow: 2px 2px 2px -2px gray;
+	transition: 0.1s;
+}
+img .img-projects{
+	
+}
+
+#more-information ul{
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.1em;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: -1em;
+	
+}
+
+#more-information ul li{
+	width: 25%;
+	display: inline-block;
+	position: relative;
+	padding: 1em 0;
+}
+
+#more-information ul li a {
+	font-size: 1.5em;
+}
+
+
+footer{
+	background-color: #2F2F2F;
+	padding-top: 2em;
+	padding-bottom: 5em;
+	margin-left: -2%;
+	width: 102%;
+	margin-bottom: -2%;
+}
+
+footer ul {
+	margin-left: 5%;
+	margin-top: -1em;
+	color: #FFFFFF;
+	font-weight: 100;
+	
+}
+
+footer ul li{
+	display: inline-block;
+	position: relative;
+	float: left;
+	font-size: 1.3em;
+	padding: 0.5em 1em;
+	
+	
+}
+
+footer ul li a{
+	color: #FFFFFF;
+	font-weight: 100;
+}
+
+#phone{
+	margin-top: 0em;
+	margin-left: -10%;
+}
+footer a img{
+	width: 30%;
+	margin-left: 42%;
+	margin-right: 8%;
+	box-shadow: none;
+}
+
+footer a:hover{
+	color: #A1D1EF;
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+
+
+@media only screen and (min-width: 1501px){
+	
+	#responsive-main{
+		width: 70%;
+		overflow-x: hidden;	
+		margin-left: 15%;
+		margin-right: 15%;	
+		
+	}
+	#parallax-intro img{
+		height: 19em;
+	}
+	
+	#logo{
+		max-width: 14%;
+		margin-top: 0.2em;
+		margin-left: 20%;
+		margin-bottom: 2em; 
+	}
+	
+	footer ul{
+		margin-left: 20%;
+	}
+	#phone{
+		margin-top: -0.5em;
+		margin-left: -7%;
+		}
+	footer a img{
+		width: 30%;
+		margin-left: 30%;
+		margin-right: 20%;
+	}
+	
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1200px){
+	
+	#line{
+		margin-left: -1em;
+	}
+	header{
+		margin-left: -1em;
+	}
+	header ul {
+		width: 70%;
+		margin-left: 25%;
+	}
+	
+	header ul li{
+		padding-left: 0.7em;
+		padding-right: 0.8em;
+		font-size: 0.8em;
+		
+	}
+	
+	#logo{
+		max-width: 20%;
+		margin-top: 0.2em;
+		margin-left: 5%;
+		margin-bottom: 2em; 
+	}
+	
+	#about{
+		padding-top: 17%;	
+	}
+	
+	#parallax-intro img{
+		opacity: 0;
+		width: 100%;
+		height: 10em;
+	}
+	
+	a .img-projects{
+		width: 50%;;
+		float: inherit;
+		margin-right: 25%;
+		margin-left: 25%;
+	}
+	
+	h3{
+		text-align: center;
+		font-size: 1.5em;
+		margin-bottom: 0em;
+		margin-left: 0em;
+		
+	}
+
+	p{
+		padding: 1em;
+		margin: 0.5em 2em 0.5em 2em;
+		
+	}
+	#projects-p p{
+		margin-right: 2em;
+		margin-left: 2em;
+	}
+	
+	footer ul{
+		margin-left: 10%;
+	}
+	#phone{
+		margin-top: -1.5em;
+		margin-left: 0%;
+		}
+	footer a img{
+		width: 50%;
+		margin-left: 200%;
+		margin-right: 10%;
+		margin-top: -1em;
+	}
+
+}
+
+@media only screen and (max-width: 780px){
+	
+	header{
+		padding: 1em 2em 4em 2em;
+		margin-top: 0em;
+		margin-left: -1em;
+	}
+	
+	header ul {
+		width: 70%;
+		margin-left: 25%;
+	}
+	
+	header ul li{
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+
+	}
+	
+	#menu-mobile{
+		display: block;
+	}
+	
+	#menu{
+		display: none;
+	}
+	
+	#logo{
+		width: 35%;
+		max-width: 50%;
+		margin-top: 0.2em;
+		margin-left: 5%;
+		margin-bottom: 1em; 
+	}
+	
+	
+	#about{
+		padding-top: 35%;	
+	}
+	
+	#parallax-intro{	
+		background-image: url(img/intro-photoL.jpg); 
+	
+	}
+	
+	#parallax-intro img{
+		opacity: 0;
+		width: 102%;
+		margin-left: -2%;
+		height: 10em;
+	}
+	
+	a .img-projects{
+		width: 80%;;
+		float: inherit;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	
+	h3{
+		text-align: center;
+		font-size: 1.5em;
+		margin-bottom: 0em;
+		margin-left: 0em;
+		
+	}
+
+	p{
+		padding: 1em;
+		margin: 0.5em 0.5em 0.5em 0.5em;
+		
+	}
+	
+	#more-information ul{
+		text-decoration: none;
+		text-align: center;
+		font-size: 1.5em;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: -1em;
+
+	}
+
+	#more-information ul li{
+		width: 100%;
+		text-align: center;
+		display: block;
+		padding: 0.1em 0.2em;
+		margin-bottom: 5px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		margin-left: -10%;
+		margin-right: 25%;
+		border-radius: 10px;
+		box-shadow: 2px 2px 2px -2px gray;
+	}
+	
+	#more-information ul li:hover{
+		box-shadow: 2px 4px 2px -2px gray;
+	}
+	
+	
+	#more-information ul a:hover{
+		text-decoration: none;
+		
+	}
+
+	#projects-p p{
+		margin-right: 2em;
+		margin-left: 2em;
+	}
+	
+	footer{
+		width: 101%;
+		margin-left: -1%;
+		padding-bottom: 25%;
+	}
+	
+	footer ul{
+		margin-left: 5%;
+		font-size: 0.8em;
+	}
+	
+	footer ul li{
+		padding-left: 0em;
+		padding-right: 50%;
+	}
+	
+	#phone{
+		margin-top: -1em;
+		margin-left: 0%;
+		font-size: 0.6em;
+		}
+	footer a img{
+		width: 50%;
+		margin-left: 50%;
+		margin-right: 5%;
+		margin-top: -5em;
+	}
+	
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1700px){
+	
+	
+		
+}	
+	
