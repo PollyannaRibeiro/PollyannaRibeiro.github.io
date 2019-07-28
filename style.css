@@ -7720,6 +7720,12 @@ html {
     width: 90%;
     margin-left: 5%;
     cursor: pointer; }
+  html .carousel-container .carousel-indicators {
+    bottom: 5rem; }
+    html .carousel-container .carousel-indicators li {
+      background-color: #3f3232;
+      width: 50px;
+      height: 3px; }
   html .carousel-container .carousel-caption {
     background-color: rgba(0, 0, 0, 0.3); }
   html .modal-body h1 {
@@ -7736,9 +7742,11 @@ html {
     margin: 10px;
     padding: 10px;
     width: 90%; }
-  html .modal-body video {
+  html .modal-body iframe {
     margin: 10px 15%;
-    width: 70%; }
+    width: 70%;
+    min-height: 315px;
+    height: auto; }
   html #footer {
     bottom: 0;
     width: 100%;
@@ -7749,6 +7757,8 @@ html {
       margin: 20px 0; }
     html #footer ul li {
       list-style: none; }
+      html #footer ul li a {
+        color: black; }
 
 .professional-links {
   list-style: none; }

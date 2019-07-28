@@ -224,6 +224,16 @@ html {
   }
 
   .carousel-container{
+    .carousel-indicators {
+      bottom: 5rem;
+      
+      li{
+        background-color: rgb(63, 50, 50);
+        width: 50px;
+        height: 3px;
+      }
+    }
+  
     .carousel-caption{
       background-color: rgba(0,0,0,0.3)
     }
@@ -253,9 +263,11 @@ html {
       width: 90%;
     }
 
-    video{
+    iframe{
       margin: 10px 15%;
       width: 70%;
+      min-height: 315px;
+      height: auto;
     }
 
   }
@@ -273,6 +285,9 @@ html {
     ul{
       li{
         list-style: none;
+        a{
+          color: black;
+        }
       }
     }
   }
