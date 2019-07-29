@@ -53,12 +53,11 @@
     <div class="main-wrap">
 
       <main>
-      
         <!-- Projects -->
         <div class="projects">
 
           <div class="row color-container" >
-            <div class="col-5 lg-card" id="personal-info" >
+            <div class="col-12 col-sm-12 col-md-5 lg-card" id="personal-info" >
               <div>  
                 <h1>POLLYANNA RIBEIRO</h1>
                 <h2>FRONT-END DEVELOPER</h2>
@@ -67,7 +66,7 @@
               </div>
             </div>
 
-            <div class="col-7 lg-card">
+            <div class="col-12 col-sm-12 col-md-7 lg-card">
       
               <p>Curiosity, creativity and readiness to learn are important points 
                 that makes me what I am, someone that is always keen to learn 
@@ -124,6 +123,19 @@
                   </button>
                 </div>
               </div>
+
+              <div class="row md-card" id="map-project">
+                <div class="">
+                    <h5 class="card-title">React - Neighborhood Map</h5>
+                    <p class="card-text">Developing a single page application featuring a map of my 
+                      neighbourhood. Adding functionality to this map including highlighted locations, 
+                      third-party data about those locations and various ways to browse the content.
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#react-map">
+                      more
+                    </button>
+                  </div>
+              </div> 
             </div> 
             <div class="col-6">
               <div class="row md-card" id="memory-game-project">
@@ -147,35 +159,19 @@
                   </button>
                 </div>            
               </div>
-            </div>     
-          </div> <!-- row-->
-
-          <div class="row color-container" >
-            <div class="col-6 md-card" id="map-project">
-              <div class="">
-                  <h5 class="card-title">React - Neighborhood Map</h5>
-                  <p class="card-text">Developing a single page application featuring a map of my 
-                    neighbourhood. Adding functionality to this map including highlighted locations, 
-                    third-party data about those locations and various ways to browse the content.
-                  </p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#react-map">
+              <div class="row md-card" id="react-project">
+                <div class="">
+                  <h5 class="card-title">React - MyReads</h5>
+                  <p class="card-text">This is a books readings manager, it provides 4 sections, 
+                      reading, want to read or read, together with a search screen that 
+                      allows you to add more book to your list.</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#my-reads">
                     more
                   </button>
                 </div>
-            </div> 
-
-            <div class="col-6 md-card" id="react-project">
-              <div class="">
-                <h5 class="card-title">React - MyReads</h5>
-                <p class="card-text">This is a books readings manager, it provides 4 sections, 
-                    reading, want to read or read, together with a search screen that 
-                    allows you to add more book to your list.</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#my-reads">
-                  more
-                </button>
-              </div>
-            </div> 
-          </div>  <!-- row -->
+              </div> 
+            </div>     
+          </div> <!-- row-->
         </div> <!-- projects -->
 
         <!-- Modal - WordPress Blog Theme-->
@@ -235,7 +231,6 @@
         </div> <!-- modal-->
 
         <!-- Modal - Ajax with fetch app -->
-
         <div class="modal fade" id="ajaxWFetch" tabindex="-1" role="dialog" aria-labelledby="ajaxWFetchTitle" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
             <div class="modal-content">
@@ -303,7 +298,7 @@
                   project done in the Udacity nanodegree. The second one was built
                   in React some weeks ago as a personal project, improving and simplifying the code, 
                   making it more readable and easy to change.
-                  </p>
+                </p>
 
                 <img src="images/memory-game/game1.png" class="card-img" alt="responsive computer">
                 <img src="images/memory-game/game2.png" class="card-img" alt="responsive computer">
@@ -420,10 +415,7 @@
             </div> <!-- modal-container -->
           </div> <!-- modal-dialog -->
         </div> <!-- modal-->
-
-       
-        
-          
+ 
         <!-- Design -->
         <div class="container">
           <h1>My design experience</h1>
@@ -437,7 +429,7 @@
             To see more examples of the work done, click on the image below.</p>  
 
           <div class="row">
-            <img id="ethos-img" data-toggle="modal" data-target="#ethos-modal" alt="" src="./images/ethos/ethos-painel.png">
+            <img class="img-fluid" id="ethos-img" data-toggle="modal" data-target="#ethos-modal" alt="" src="./images/ethos/ethos-painel.png">
           </div>
         </div>  
         <!-- Modal - Ethos - Design -->
@@ -576,36 +568,13 @@
                       </figcaption>
                     </figure>
                   </div>
-                  <!-- <div class="carousel-item">
-                    <figure class="figure">
-                      <img src="images/design/logos-and-graphic.png" class="figure-img img-fluid d-block w-100" alt="...">
-                      <figcaption class="figure-caption text-center">Logos and graphic projetcs</figcaption>
-                    </figure>
-                  </div>
-                  <div class="carousel-item">
-                    <figure class="figure">
-                      <img src="images/design/photography-course.png" class="figure-img img-fluid d-block w-100" alt="...">
-                      <figcaption class="figure-caption text-center">Photography - photos that were taken in a photography course 
-                        that I did, as a hobby 
-                      </figcaption>
-                    </figure>
-                  </div> -->
                 </div>
-                <!-- <a class="carousel-control-prev" href="#carousel-design" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only"></span>
-                </a>
-                <a class="carousel-control-next" href="#carousel-design" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only"></span>
-                </a> -->
               </div>
             </div>
           </div> <!-- .row -->
         </div> <!-- .container (desing)-->  
 
-        <div class="container" id="conclusion">
-          
+        <div class="container" id="conclusion"> 
           <p>I'm a self-taught, and keen to acquire whatever knowledge is necessary to finish
             a project.</p>
           <p>Learned how to use the Adobe Suite, WorkPress, HTML, CSS, and even a little bit of
@@ -614,23 +583,22 @@
             are my strong points.
           </p>
         </div>
-
-      </main> 
+      </main>  
     </div> <!-- main-wrap -->
 
     <!--[ footer ] -->
     <footer id="footer">
       <div class="container">
         <div class="row footer-block">
-          <div class="col-sm-6">
+          <div class="col-12 col-sm-6">
             <ul>
               <li> <a href="https://pollyannaribeiro.github.io/">Home</a></li>
               <li> <a href="#projects-row">Projects</a></li>
               <li> <a href="mailto:recpolly@gmail.com">Contact</a></li>
             </ul>
           </div>
-          <div class="col-sm-6">
-            <ul class="professional-links float-right">
+          <div class="col-12 col-sm-6">
+            <ul class="professional-links">
               <li><a href="/images/cv/pollyanna-ribeiro-cv-2019.pdf"><img src="./images/links/cv-icon-back-transp.png" alt=""></a></li>
               <li><a href="https://www.linkedin.com/in/pollyanna-ribeiro-192418152/"><img src="./images/links/linkedin-icon-back-transp.png" alt=""></a></li>
               <li><a href="https://github.com/PollyannaRibeiro"><img src="./images/links/git-icon-back-transp.png" alt=""></a></li> 
