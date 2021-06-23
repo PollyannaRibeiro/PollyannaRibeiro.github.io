@@ -30,7 +30,7 @@ function Header(){
               {/* <li className="nav-item"><Link exact to="/" className="nav-link" style={linkStyle} label="Home" >home</Link></li> */}
               <li className="nav-item"><a href="https://www.linkedin.com/in/pollyanna-ribeiro" className="nav-link" style={linkStyle} label="LinkedIn">LinkedIn</a></li>
               <li className="nav-item"><a href="https://github.com/PollyannaRibeiro" className="nav-link" style={linkStyle} label="Git">Git</a></li>
-              <li className="nav-item"><a href="https://drive.google.com/file/d/1ofUGWEHfj_gD5dst4A7jKP8Ptj2hlym_/view?usp=sharing" className="nav-link" style={linkStyle} label="CV">CV</a></li>
+              <li className="nav-item"><a href="https://drive.google.com/file/d/1d3uNCb9BhR7x9NUnLMqUsa4u8cWmxJck/view?usp=sharing" className="nav-link" style={linkStyle} label="CV">CV</a></li>
               <li className="nav-item"><a href="mailto:recpolly@gmail.com" className="nav-link" style={linkStyle} label= "Contact">Contact</a></li>
             </ul>
           </nav> 

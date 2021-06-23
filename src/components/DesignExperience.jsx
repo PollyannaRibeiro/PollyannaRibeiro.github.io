@@ -10,9 +10,12 @@ function DesignExperience(){
         <h1>Design Experience</h1>
 
         <SkillsMenu />
-        <p>I have experience in creating responsive and accessible websites (HTML, CSS, JS, React, Bootstrap, and Aria), 
-          supporting/maintaining WordPress and Wix websites. Creating advertisement material for social media, google ads, 
-          including animated content, retouching, and video edition.</p>
+        <p></p>
+        <p>I have experience in creating responsive and accessible websites 
+          (HTML, CSS, JS, React, Bootstrap, and Aria), supporting/maintaining 
+          WordPress and Wix websites. Creating advertisement material for 
+          social media, google ads, including animated content, retouching, 
+          and video edition. </p>
         <p>Below, you can find some works that I've done.</p>
         
         <div>

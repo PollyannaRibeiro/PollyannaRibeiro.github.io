@@ -2,6 +2,7 @@ import React from 'react';
 import sbWeb from '../assets/portfolioPagesContent/sole/img/website/small/sb-small-01.jpg';
 import sbMob from '../assets/portfolioPagesContent/sole/img/website/small/sb-small-02.jpg';
 import salonPage from '../assets/portfolioPagesContent/sole/img/website/small/salon-page-streatham.png';
+import sbWaxing from '../assets/portfolioPagesContent/sole/img/vectors/waxing.png';
 import giveaway01 from '../assets/portfolioPagesContent/sole/img/insta/small/giveaway.png';
 import giveaway02 from '../assets/portfolioPagesContent/sole/img/insta/small/giveaway-2.png';
 import summerOffer from '../assets/portfolioPagesContent/sole/img/insta/small/summer-offer-01.jpg';
@@ -16,23 +17,34 @@ function Sole(){
 
         <h1>Sole Beauty</h1>
 
-        <p>Worked as a Web Designer/Developer and Head of the marketing team of Sole Beauty. During this time, I supervised 
-          the marketing team on the content creation for Social Media, a blog, and creating ads and campaigns for promoting 
+        <p>I worked as a Web Designer/Developer and Head of the marketing 
+          team in the Sole Beauty salons branch. During this time, I 
+          supervised the marketing team on the content creation for Social 
+          Media, company blog, and creating ads and campaigns for promoting 
           new services and events.</p> 
-        <p>The main goal of my work was to make the website faster and easier to be ranked on Google search tools (SEO friendly) 
-          which helped to reach new customers and increase the page views numbers. To reach this outcome it was needed to redesign 
-          the website and make it responsive on a range of screen sizes.</p>
-        <p>On the homepage, for instance, a heavy slide animation was replaced by a static image to help it to open smoothly and 
-          reduce the load on mobile. A concise section summarising the main treatments offered was added. 
-          To simplify the user experience, the customers have the option to book through a booking button or choose one of the 
-          salon's pictures and book directly by location. Furthermore, a special offers page, an Instagram feed, Twitter, and 
-          social media links were added.</p>
-        <p>Moreover, on each page was added booking buttons, each salon owns pages, and a blog was created. Also, created images 
-          explaining the difference between each waxing type to direct the customers to the correct option, thus avoiding unnecessary 
-          calls or postponing the booking because they weren't sure about the waxing type selected.</p>
-        <p>To make it responsive I removed unnecessary content from the mobile version, focusing on the most important information. 
-          The booking button was always visible on the scroll, responsive menu, Instagram feed, Twitter, one-click WhatsApp message, 
-          and social media links.</p>
+        <p>The main goal of my work was to make the website faster and easier 
+          to be ranked on Google search tools (to be SEO friendly) which 
+          helped to reach new customers and increase the page views number. 
+          To achieve this outcome, redesigning the website was needed to make 
+          it responsive on a range of screen sizes.</p>
+        <p>On the homepage, for instance, a heavy slide animation was replaced 
+          by a static image to help it open smoothly and reduce the load on the 
+          mobile screen. A concise section summarising the main treatments 
+          offered was added. To simplify the user experience, the customers 
+          now have the option to book through a booking button or choose one 
+          of the salon's pictures and book directly by location. Furthermore, 
+          a special offers page, an Instagram feed, Twitter, and social media 
+          links were added.</p>
+        <p>Moreover, booking buttons were added on each page, each salon now 
+          owns its own pages, and a blog was created. Also, I created images 
+          explaining the difference between each waxing type to direct the 
+          customers to the correct option, thus avoiding unnecessary calls or 
+          postponing the booking because they weren't sure about the waxing 
+          type selected.</p>
+        <p>To make it responsive I removed unnecessary content from the mobile 
+          version, focusing on the most important information. The booking 
+          button was always visible on the scroll, responsive menu, Instagram 
+          feed, Twitter, one-click WhatsApp message, and social media links.</p>
         
       </div>
 
@@ -42,6 +54,10 @@ function Sole(){
             <figure>
               <img src={sbWeb} className="img-fluid" alt="New Sole Beauty Webpage"/>
               <figcaption>Homepage</figcaption>
+            </figure>
+            <figure>
+              <img src={sbWaxing} className="img-fluid" alt="New Sole Beauty Webpage"/>
+              <figcaption>Waxing Options (User-friendly image)</figcaption>
             </figure>
           </div>
 
@@ -78,7 +94,7 @@ function Sole(){
 
       <div className="container">
         <h3>Digital design, Ads and Social Media  </h3>
-        <p>Below, follows some examples of the marketing and design works that I've done for the company.</p>
+        <p>Below, follow some examples of the marketing and design works that I've done for the company.</p>
 
         <div className="row">
           <div className="col-12 col-sm-4">
