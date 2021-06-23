@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.074b3938.chunk.css",
-    "main.js": "/static/js/main.a73b67f0.chunk.js",
-    "main.js.map": "/static/js/main.a73b67f0.chunk.js.map",
+    "main.css": "/static/css/main.e88c9663.chunk.css",
+    "main.js": "/static/js/main.24233533.chunk.js",
+    "main.js.map": "/static/js/main.24233533.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cae6fcf7.js",
     "runtime-main.js.map": "/static/js/runtime-main.cae6fcf7.js.map",
     "static/css/2.61b4cb56.chunk.css": "/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.883396ba.chunk.js": "/static/js/2.883396ba.chunk.js",
-    "static/js/2.883396ba.chunk.js.map": "/static/js/2.883396ba.chunk.js.map",
+    "static/js/2.bbdbd8e0.chunk.js": "/static/js/2.bbdbd8e0.chunk.js",
+    "static/js/2.bbdbd8e0.chunk.js.map": "/static/js/2.bbdbd8e0.chunk.js.map",
     "static/js/3.f51b0682.chunk.js": "/static/js/3.f51b0682.chunk.js",
     "static/js/3.f51b0682.chunk.js.map": "/static/js/3.f51b0682.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.074b3938.chunk.css.map": "/static/css/main.074b3938.chunk.css.map",
-    "static/js/2.883396ba.chunk.js.LICENSE.txt": "/static/js/2.883396ba.chunk.js.LICENSE.txt",
+    "static/css/main.e88c9663.chunk.css.map": "/static/css/main.e88c9663.chunk.css.map",
+    "static/js/2.bbdbd8e0.chunk.js.LICENSE.txt": "/static/js/2.bbdbd8e0.chunk.js.LICENSE.txt",
     "static/media/2018-ad-static-300x250-option1.91d76134.jpg": "/static/media/2018-ad-static-300x250-option1.91d76134.jpg",
     "static/media/2018-ad-static-300x250-option2.bf71c38d.jpg": "/static/media/2018-ad-static-300x250-option2.bf71c38d.jpg",
     "static/media/2018-ad-static-300x250-option3.e60513e9.jpg": "/static/media/2018-ad-static-300x250-option3.e60513e9.jpg",
@@ -49,13 +49,14 @@
     "static/media/wallpaper-facebook-option1.9b0e25de.jpg": "/static/media/wallpaper-facebook-option1.9b0e25de.jpg",
     "static/media/wallpaper-facebook-option2.27cc0cc9.jpg": "/static/media/wallpaper-facebook-option2.27cc0cc9.jpg",
     "static/media/waxing-combo-stories-s-01.c1882342.png": "/static/media/waxing-combo-stories-s-01.c1882342.png",
-    "static/media/waxing-combo-stories-s-2.18424ba2.png": "/static/media/waxing-combo-stories-s-2.18424ba2.png"
+    "static/media/waxing-combo-stories-s-2.18424ba2.png": "/static/media/waxing-combo-stories-s-2.18424ba2.png",
+    "static/media/waxing.c8a4480c.png": "/static/media/waxing.c8a4480c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cae6fcf7.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.883396ba.chunk.js",
-    "static/css/main.074b3938.chunk.css",
-    "static/js/main.a73b67f0.chunk.js"
+    "static/js/2.bbdbd8e0.chunk.js",
+    "static/css/main.e88c9663.chunk.css",
+    "static/js/main.24233533.chunk.js"
   ]
 }
