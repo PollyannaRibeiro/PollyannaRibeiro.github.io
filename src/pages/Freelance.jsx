@@ -50,10 +50,10 @@ function Freelance(){
 
           <div className="row">
             <div className="col-12 col-sm-6">
-              <img src={bSandLogo} className="img-fluid" alt="New Sole Beauty Webpage"/>
+              {/* <img src={bWeb02} className="img-fluid" alt="New Sole Beauty Webpage"/> */}
             </div>
             <div className="col-12 col-sm-6">
-              <img src={bWeb02} className="img-fluid" alt="New Sole Beauty Webpage"/>
+              <img src={bSandLogo} className="img-fluid" alt="New Sole Beauty Webpage"/>
             </div>
           </div>
   

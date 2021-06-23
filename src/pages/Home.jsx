@@ -55,11 +55,11 @@ function Home(){
                 studying period, my CV, and LinkedIn pages. </p>
               <p>Thereunder, you can find some of the design projects that I worked on.</p>  
               
-              <ul className="nav justify-content-end nav-menu" id="home-links">
+              {/* <ul className="nav justify-content-end nav-menu" id="home-links">
                 <li className="nav-item" key="item-linkedin"><a href="https://www.linkedin.com/in/pollyanna-ribeiro" className="nav-link"><Icon src={cv} alt="cv"/></a></li>
                 <li className="nav-item" key="item-git"><a href="https://github.com/PollyannaRibeiro" className="nav-link"><Icon src={linkedIn} alt="LinkedIn link profile"/></a></li>
                 <li className="nav-item" key="item-email"><a href="mailto:recpolly@gmail.com" className="nav-link"><Icon src={git} alt="Git link"/></a></li>
-              </ul>
+              </ul> */}
 
             </div>{/* end of the second col */}
           </div> {/* end of the row */}

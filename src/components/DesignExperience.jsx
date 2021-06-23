@@ -1,15 +1,15 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import SkillsMenu from '../components/DesingSkillsMenu';
-import SoleBeauty from '../pages/SoleBeauty';
-import EthosData from '../pages/EthosData';
-import Freelas from '../pages/Freelance';
+import Projects from '../pages/Projects';
 
 function DesignExperience(){
   return(
     <>
       <div className="container" id="design-projects"> {/* container */}
         <h1>Design Experience</h1>
+
+        <SkillsMenu />
         <p>I have experience in creating responsive and accessible websites (HTML, CSS, JS, React, Bootstrap, and Aria), 
           supporting/maintaining WordPress and Wix websites. Creating advertisement material for social media, google ads, 
           including animated content, retouching, and video edition.</p>
@@ -26,9 +26,7 @@ function DesignExperience(){
             </Switch>
           </Router> */}
         </div>
-        <SoleBeauty />
-        <EthosData />
-        <Freelas />
+        <Projects />
       </div> {/* end of container */}
     </>
   )

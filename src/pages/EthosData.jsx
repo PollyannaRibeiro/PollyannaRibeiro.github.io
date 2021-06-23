@@ -18,7 +18,7 @@ function Ethos(){
     <div className="container" id="ethos-container">
 
       <div className="row">  
-        <h1>Ethos</h1>
+        <h1>EthosData</h1>
         <p>Developing advertisements and animated banners (google and social media). Creating document layout, videos, 
           marketing content layout, and email marketing (B2B).</p>
       </div>
