@@ -6,7 +6,6 @@ import linkedIn from '../assets/img/links/linkedin-icon-back-transp.png';
 import DevExperience from '../components/DevExperience';
 import DesignExperience from '../components/DesignExperience';
 
-
 const Icon = styled.img`
   width:50px;
 `;

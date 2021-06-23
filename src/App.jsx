@@ -19,10 +19,10 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/"><Home/></Route>
-        <Route exact path="/projects"><Projects/></Route>
+        {/* <Route exact path="/projects"><Projects/></Route>
         <Route exact path="/soleBeauty"><SoleBeauty/></Route>
         <Route exact path="/ethosdata"><Ethos/></Route>
-        <Route exact path="/freelance"><Freela/></Route>
+        <Route exact path="/freelance"><Freela/></Route> */}
         {/* <Route exact path="/wix"><Projects/></Route> */}
         {/* <Route exact path="/digitaldesign"><Projects/></Route> */}
       </Switch>

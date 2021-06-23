@@ -17,15 +17,18 @@ function DesignExperience(){
         
         <div>
           {/* Skills Menu */}
-          <Router>
+          {/* <Router>
             <SkillsMenu/>
             <Switch>
               <Route path="/solebeauty"><SoleBeauty/></Route>
               <Route path="/ethosdata"><EthosData/></Route>
               <Route path="/freelance"><Freelas/></Route>
             </Switch>
-          </Router>
+          </Router> */}
         </div>
+        <SoleBeauty />
+        <EthosData />
+        <Freelas />
       </div> {/* end of container */}
     </>
   )
