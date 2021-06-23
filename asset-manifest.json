@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.074b3938.chunk.css",
-    "main.js": "/static/js/main.33c34334.chunk.js",
-    "main.js.map": "/static/js/main.33c34334.chunk.js.map",
+    "main.js": "/static/js/main.a73b67f0.chunk.js",
+    "main.js.map": "/static/js/main.a73b67f0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cae6fcf7.js",
     "runtime-main.js.map": "/static/js/runtime-main.cae6fcf7.js.map",
     "static/css/2.61b4cb56.chunk.css": "/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.76452b8f.chunk.js": "/static/js/2.76452b8f.chunk.js",
-    "static/js/2.76452b8f.chunk.js.map": "/static/js/2.76452b8f.chunk.js.map",
+    "static/js/2.883396ba.chunk.js": "/static/js/2.883396ba.chunk.js",
+    "static/js/2.883396ba.chunk.js.map": "/static/js/2.883396ba.chunk.js.map",
     "static/js/3.f51b0682.chunk.js": "/static/js/3.f51b0682.chunk.js",
     "static/js/3.f51b0682.chunk.js.map": "/static/js/3.f51b0682.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.074b3938.chunk.css.map": "/static/css/main.074b3938.chunk.css.map",
-    "static/js/2.76452b8f.chunk.js.LICENSE.txt": "/static/js/2.76452b8f.chunk.js.LICENSE.txt",
+    "static/js/2.883396ba.chunk.js.LICENSE.txt": "/static/js/2.883396ba.chunk.js.LICENSE.txt",
     "static/media/2018-ad-static-300x250-option1.91d76134.jpg": "/static/media/2018-ad-static-300x250-option1.91d76134.jpg",
     "static/media/2018-ad-static-300x250-option2.bf71c38d.jpg": "/static/media/2018-ad-static-300x250-option2.bf71c38d.jpg",
     "static/media/2018-ad-static-300x250-option3.e60513e9.jpg": "/static/media/2018-ad-static-300x250-option3.e60513e9.jpg",
@@ -38,9 +38,8 @@
     "static/media/icon-cv.753ee184.svg": "/static/media/icon-cv.753ee184.svg",
     "static/media/icon-email-02.3a78b5e3.svg": "/static/media/icon-email-02.3a78b5e3.svg",
     "static/media/icon-home.a19bfa79.svg": "/static/media/icon-home.a19bfa79.svg",
-    "static/media/icons-linkedin.f8782875.svg": "/static/media/icons-linkedin.f8782875.svg",
     "static/media/icons-projects.7278804f.svg": "/static/media/icons-projects.7278804f.svg",
-    "static/media/logo.4eb44072.svg": "/static/media/logo.4eb44072.svg",
+    "static/media/logo.b5b0d0c4.png": "/static/media/logo.b5b0d0c4.png",
     "static/media/salon-page-streatham.df38a4fb.png": "/static/media/salon-page-streatham.df38a4fb.png",
     "static/media/sandboxLogo.47b69c1b.png": "/static/media/sandboxLogo.47b69c1b.png",
     "static/media/sb-small-01.3aa19464.jpg": "/static/media/sb-small-01.3aa19464.jpg",
@@ -55,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.cae6fcf7.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.76452b8f.chunk.js",
+    "static/js/2.883396ba.chunk.js",
     "static/css/main.074b3938.chunk.css",
-    "static/js/main.33c34334.chunk.js"
+    "static/js/main.a73b67f0.chunk.js"
   ]
 }
